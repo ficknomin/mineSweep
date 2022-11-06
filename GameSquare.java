@@ -17,6 +17,8 @@ public abstract class GameSquare extends JButton
 	/** The GameBoard upon which this GameSquare resides. **/
 	protected GameBoard board;
 
+	public boolean thisSquareHasBomb;
+
 	/**
 	 * Create a new GameSquare, which can be placed on a GameBoard.
 	 * 
